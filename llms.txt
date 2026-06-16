@@ -1,0 +1,19 @@
+# Supper Bear
+
+> Supper Bear is a free family meal-planning app from BRCG Digital Partners Inc. Plan the week, share it with your household, ask any recipe for substitutions, and turn it all into a one-tap grocery list. Available on iPhone (App Store) and any web browser.
+
+## Key facts
+- Price: Free. No ads, no third-party advertising trackers.
+- Platforms: iPhone (iOS, App Store) and any modern web browser (phones, tablets, computers).
+- Core features: weekly meal planner, recipe collection, AI "ask about this recipe" substitutions, one-tap grocery list, shared households via invite code, voice/preset kitchen setup, Face ID unlock.
+- Sharing: each household has an invite code; members see the same plan and list synced in real time.
+- Sign-in: Apple, Google, or passwordless email code.
+- Account deletion: in-app via Household > Delete account.
+- Publisher: BRCG Digital Partners Inc.
+
+## Links
+- App Store: https://apps.apple.com/app/id6780084420
+- Web app: https://poo-bears.vercel.app
+- Privacy: https://supperbear.com/privacy
+- Terms: https://supperbear.com/terms
+- Support: https://supperbear.com/support

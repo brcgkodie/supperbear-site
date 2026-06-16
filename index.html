@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Supper Bear — Family Meal Planner, Recipes & Grocery List</title>
+<meta name="description" content="Supper Bear is a free family meal planner. Plan the week, share it with your household, ask any recipe for substitutions, and turn it all into a one-tap grocery list. On iPhone and any browser."/>
+<link rel="canonical" href="https://supperbear.com/"/>
+<meta name="theme-color" content="#0e9e63"/>
+<link rel="icon" href="/img/icon.png"/>
+<link rel="apple-touch-icon" href="/img/icon.png"/>
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Supper Bear"/>
+<meta property="og:title" content="Supper Bear — Family Meal Planner, Recipes & Grocery List"/>
+<meta property="og:description" content="Plan the week, share it with your household, ask any recipe for substitutions, and turn it into a one-tap grocery list. Free, on iPhone and any browser."/>
+<meta property="og:url" content="https://supperbear.com/"/>
+<meta property="og:image" content="https://supperbear.com/img/og.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Supper Bear — Family Meal Planner"/>
+<meta name="twitter:description" content="Plan the week, share it with your household, and turn it into a one-tap grocery list. Free, on iPhone and any browser."/>
+<meta name="twitter:image" content="https://supperbear.com/img/og.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Organization","@id":"https://supperbear.com/#org","name":"BRCG Digital Partners Inc.","url":"https://supperbear.com/","brand":"Supper Bear"},
+    {"@type":"WebSite","@id":"https://supperbear.com/#site","url":"https://supperbear.com/","name":"Supper Bear","publisher":{"@id":"https://supperbear.com/#org"}},
+    {"@type":"MobileApplication","name":"Supper Bear","operatingSystem":"iOS, Web","applicationCategory":"LifestyleApplication","applicationSubCategory":"Food & Drink","description":"A free family meal planner: plan the week, share it with your household, ask recipes for substitutions, and build a one-tap grocery list.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://supperbear.com/#org"},"url":"https://apps.apple.com/app/id6780084420"},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"What is Supper Bear?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear is a free family meal-planning app. You plan the week, share it with everyone in your household, browse and save recipes, ask any recipe for substitutions, and turn your plan into a one-tap grocery list."}},
+      {"@type":"Question","name":"Is Supper Bear free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Supper Bear is free to use, with no ads and no third-party advertising trackers."}},
+      {"@type":"Question","name":"What devices does Supper Bear work on?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear runs on iPhone via the App Store and in any modern web browser on phones, tablets, and computers, so the whole household can use it whatever device they have."}},
+      {"@type":"Question","name":"How do family members share a kitchen?","acceptedAnswer":{"@type":"Answer","text":"Each household has a simple invite code. Anyone you share it with signs in, enters the code, and sees the same meal plan, recipes, and grocery list, synced in real time."}},
+      {"@type":"Question","name":"Can I ask a recipe a question?","acceptedAnswer":{"@type":"Answer","text":"Yes. Open any recipe and tap Ask about this recipe to get substitutions with amounts, scaling, spice tweaks, or how to cook it a different way."}}
+    ]}
+  ]
+}
+</script>
+<style>
+  :root{--green:#0e9e63;--green-d:#0a6c45;--ink:#15171a;--ink2:#3a4047;--muted:#69707a;--bg:#f3faf5;--line:#e6ece8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:13px 22px;border-radius:13px;cursor:pointer;border:none;font-family:inherit;transition:transform .14s,box-shadow .14s}
+  .btn:active{transform:scale(.98)}
+  .btn-primary{background:var(--green);color:#fff;box-shadow:0 8px 22px rgba(14,158,99,.28)}
+  .btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+  .eyebrow{font-weight:700;font-size:13.5px;letter-spacing:.13em;color:var(--green);text-transform:uppercase}
+  /* nav */
+  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--line)}
+  nav .inner{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:-.02em}
+  .brand img{width:38px;height:38px;border-radius:10px}
+  .navlinks{display:flex;align-items:center;gap:26px}
+  .navlinks a{font-weight:600;font-size:14.5px;color:var(--ink2)}
+  .navlinks a:hover{color:var(--ink)}
+  .navcta{display:flex;align-items:center;gap:12px}
+  /* hero */
+  .hero{background:radial-gradient(120% 90% at 80% -10%,#e7f7ee 0%,#f3faf5 45%,#fff 100%);overflow:hidden}
+  .hero .inner{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:78px 0 70px}
+  .hero h1{font-size:62px;line-height:1.03;letter-spacing:-.035em;font-weight:800;margin:18px 0 0}
+  .hero h1 .g{color:var(--green)}
+  .hero p.sub{font-size:19px;color:var(--ink2);margin:20px 0 30px;max-width:520px}
+  .ctarow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .appbadge{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:13px;padding:10px 18px}
+  .appbadge svg{width:26px;height:26px}
+  .appbadge .t{line-height:1.1}.appbadge .t small{display:block;font-size:10px;opacity:.9;font-weight:500}.appbadge .t b{font-size:19px;font-weight:700;letter-spacing:-.01em}
+  .platline{margin-top:18px;font-size:13.5px;color:var(--muted);font-weight:600}
+  .heroart{position:relative;display:flex;justify-content:center;gap:18px}
+  .phone{background:#0b0d10;border-radius:42px;padding:8px;box-shadow:0 40px 80px rgba(10,40,26,.22),0 12px 30px rgba(10,40,26,.16);width:236px;flex:0 0 auto}
+  .phone.back{width:206px;margin-top:34px;opacity:.96}
+  .phone .screen{border-radius:35px;overflow:hidden;position:relative;background:#f1f3ef}
+  .phone .screen img{width:100%;display:block}
+  .phone .island{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:74px;height:20px;background:#000;border-radius:11px;z-index:2}
+  /* logos / trust */
+  .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fafdfb}
+  .trust .inner{display:flex;flex-wrap:wrap;gap:14px 40px;justify-content:center;padding:22px 0;font-weight:700;color:var(--muted);font-size:14.5px}
+  .trust b{color:var(--ink)}
+  /* sections */
+  section.pad{padding:84px 0}
+  .sechead{text-align:center;max-width:680px;margin:0 auto 52px}
+  .sechead h2{font-size:42px;letter-spacing:-.03em;font-weight:800;margin:12px 0 0;line-height:1.08}
+  .sechead p{font-size:18px;color:var(--ink2);margin-top:14px}
+  /* feature rows */
+  .frow{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center;margin:0 auto;max-width:980px;padding:46px 0}
+  .frow:nth-child(even) .ftext{order:2}
+  .ftext h3{font-size:30px;letter-spacing:-.02em;font-weight:800;line-height:1.12;margin:10px 0 0}
+  .ftext p{font-size:17px;color:var(--ink2);margin-top:12px}
+  .fart{display:flex;justify-content:center}
+  .fart .phone{width:262px}
+  /* steps */
+  .steps{background:#0a5c3a;color:#fff;border-radius:28px;padding:54px 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+  .steps .st .n{width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px}
+  .steps .st h4{font-size:20px;margin:16px 0 6px;font-weight:800}
+  .steps .st p{color:#cdeadd;font-size:15px}
+  /* faq */
+  .faq{max-width:760px;margin:0 auto}
+  .qa{border-bottom:1px solid var(--line);padding:22px 0}
+  .qa h4{font-size:18.5px;font-weight:700;letter-spacing:-.01em}
+  .qa p{color:var(--ink2);margin-top:8px;font-size:16px}
+  /* cta band */
+  .ctaband{background:radial-gradient(120% 120% at 50% 0%,#16b277 0%,#0a5c3a 100%);color:#fff;border-radius:30px;text-align:center;padding:64px 30px}
+  .ctaband h2{font-size:42px;letter-spacing:-.03em;font-weight:800;line-height:1.08}
+  .ctaband p{font-size:18px;opacity:.92;margin:14px auto 28px;max-width:520px}
+  .ctaband .ctarow{justify-content:center}
+  .ctaband .btn-ghost{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+  /* footer */
+  footer{border-top:1px solid var(--line);padding:46px 0 60px;color:var(--muted);font-size:14px}
+  footer .cols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
+  footer a{color:var(--ink2);font-weight:600}footer a:hover{color:var(--ink)}
+  footer .lk{display:flex;gap:22px;flex-wrap:wrap}
+  footer .cp{margin-top:26px;font-size:13px}
+  @media(max-width:860px){
+    .hero .inner{grid-template-columns:1fr;padding:54px 0 50px}.hero h1{font-size:46px}
+    .heroart{margin-top:18px}.navlinks{display:none}
+    .frow{grid-template-columns:1fr;gap:24px;padding:34px 0}.frow:nth-child(even) .ftext{order:0}
+    .sechead h2{font-size:33px}.ctaband h2{font-size:32px}
+    .steps{grid-template-columns:1fr;gap:26px;padding:40px 26px}
+  }
+</style>
+</head>
+<body>
+<nav><div class="wrap inner">
+  <a class="brand" href="/"><img src="/img/icon.png" alt="Supper Bear logo"/>Supper Bear</a>
+  <div class="navlinks">
+    <a href="#features">Features</a>
+    <a href="#how">How it works</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://poo-bears.vercel.app">Sign in</a>
+  </div>
+  <div class="navcta"><a class="btn btn-primary" href="https://apps.apple.com/app/id6780084420">Get the app</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap inner">
+  <div>
+    <div class="eyebrow">Family meal planning, sorted</div>
+    <h1>Dinner, <span class="g">decided.</span><br/>For the whole house.</h1>
+    <p class="sub">Plan the week, share it with everyone at home, ask any recipe for a swap, and turn it all into a one-tap grocery list. Free — on your iPhone and any browser.</p>
+    <div class="ctarow">
+      <a class="appbadge" href="https://apps.apple.com/app/id6780084420" aria-label="Download Supper Bear on the App Store">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M17.05 12.04c-.03-2.4 1.96-3.55 2.05-3.61-1.12-1.64-2.86-1.86-3.48-1.89-1.48-.15-2.89.87-3.64.87-.75 0-1.58-.85-2.6-.83-1.34.02-2.57.78-3.26 1.98-1.39 2.41-.36 5.98 1 7.94.66.96 1.45 2.04 2.49 2 1-.04 1.38-.65 2.59-.65s1.55.65 2.61.63c1.08-.02 1.76-.98 2.42-1.94.76-1.11 1.07-2.18 1.09-2.24-.02-.01-2.09-.8-2.11-3.18M14.63 5.16c.55-.67.93-1.6.82-2.53-.8.03-1.77.53-2.34 1.2-.51.59-.96 1.54-.84 2.45.89.07 1.81-.45 2.36-1.12"/></svg>
+        <div class="t"><small>Download on the</small><b>App Store</b></div>
+      </a>
+      <a class="btn btn-ghost" href="https://poo-bears.vercel.app">Open in your browser →</a>
+    </div>
+    <div class="platline">iPhone · iPad · any browser · free, no ads</div>
+  </div>
+  <div class="heroart">
+    <div class="phone back"><div class="screen"><div class="island"></div><img src="/img/s-recipes.png" alt="Supper Bear recipe collection"/></div></div>
+    <div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-week.png" alt="Supper Bear weekly meal plan"/></div></div>
+  </div>
+</div></header>
+
+<div class="trust"><div class="wrap inner">
+  <span><b>One plan,</b> every phone</span>
+  <span><b>AI</b> recipe help</span>
+  <span><b>One-tap</b> grocery list</span>
+  <span><b>Free</b> · no ads</span>
+</div></div>
+
+<section class="pad" id="features"><div class="wrap">
+  <div class="sechead"><div class="eyebrow">What you get</div><h2>Everything dinner needs, in one place</h2><p>No spreadsheets, no group texts, no nightly "what do you want?" standoff.</p></div>
+
+  <div class="frow">
+    <div class="ftext"><div class="eyebrow">Weekly plan</div><h3>The whole week, at a glance</h3><p>Drop recipes onto any day and everyone in the house sees the plan instantly. No more "wait, are we doing tacos tonight?"</p></div>
+    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-week.png" alt="Weekly meal plan with the family's dinners"/></div></div></div>
+  </div>
+
+  <div class="frow">
+    <div class="ftext"><div class="eyebrow">AI sous-chef</div><h3>Ask any recipe anything</h3><p>Out of feta? Want it spicier? Need to air-fry it instead? Tap "Ask about this recipe" and get a real answer with substitutions and amounts — it already knows the full recipe.</p></div>
+    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-chat.png" alt="Ask a recipe for ingredient substitutions"/></div></div></div>
+  </div>
+
+  <div class="frow">
+    <div class="ftext"><div class="eyebrow">Grocery list</div><h3>Your week becomes a shopping list</h3><p>Supper Bear rolls your plan into a clean, sorted grocery list in one tap — ready to take to the store or send to your cart.</p></div>
+    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-grocery.png" alt="One-tap grocery list from your meal plan"/></div></div></div>
+  </div>
+
+  <div class="frow">
+    <div class="ftext"><div class="eyebrow">Shared kitchen</div><h3>Set up your kitchen in seconds</h3><p>Pick a starter kitchen when you sign up, or just talk — Supper Bear listens and sorts your appliances, pots, pantry, and freezer, so recipes know what you can actually cook.</p></div>
+    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-kitchen.png" alt="Your kitchen and pantry inventory"/></div></div></div>
+  </div>
+</div></section>
+
+<section class="pad" id="how" style="padding-top:20px"><div class="wrap">
+  <div class="steps">
+    <div class="st"><div class="n">1</div><h4>Make your kitchen</h4><p>Sign in with Apple, Google, or email. Name your household and pick how stocked you are.</p></div>
+    <div class="st"><div class="n">2</div><h4>Invite the family</h4><p>Share one code. Everyone sees the same plan and list, synced across every phone.</p></div>
+    <div class="st"><div class="n">3</div><h4>Plan &amp; shop</h4><p>Drop in meals for the week, then turn it into a grocery list with one tap.</p></div>
+  </div>
+</div></section>
+
+<section class="pad" id="faq" style="padding-top:20px"><div class="wrap">
+  <div class="sechead"><div class="eyebrow">Good to know</div><h2>Frequently asked questions</h2></div>
+  <div class="faq">
+    <div class="qa"><h4>Is Supper Bear free?</h4><p>Yes — Supper Bear is free to use, with no ads and no third-party advertising trackers.</p></div>
+    <div class="qa"><h4>What devices does it work on?</h4><p>iPhone via the App Store, and any modern web browser on phones, tablets, and computers — so the whole household can use it on whatever device they have.</p></div>
+    <div class="qa"><h4>How do family members share a kitchen?</h4><p>Each household has a simple invite code. Anyone you share it with signs in, enters the code, and sees the same meal plan, recipes, and grocery list, synced in real time.</p></div>
+    <div class="qa"><h4>How does "Ask about this recipe" work?</h4><p>Open any recipe and tap Ask about this recipe. It already knows the full recipe, so you can ask for substitutions with amounts, scaling, spice tweaks, or a different cooking method.</p></div>
+    <div class="qa"><h4>How do I sign in?</h4><p>Sign in with Apple, Google, or a passwordless email code — your choice. On iPhone you can unlock with Face ID.</p></div>
+    <div class="qa"><h4>Can I delete my account?</h4><p>Yes. Open the Household tab and choose "Delete account." It removes your account and your membership in any household.</p></div>
+    <div class="qa"><h4>Who makes Supper Bear?</h4><p>Supper Bear is a product of BRCG Digital Partners Inc. Read our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>.</p></div>
+  </div>
+</div></section>
+
+<section class="pad" style="padding-top:10px"><div class="wrap">
+  <div class="ctaband">
+    <h2>Get the family fed.</h2>
+    <p>Plan it once, eat well all week. Free on iPhone and any browser.</p>
+    <div class="ctarow">
+      <a class="appbadge" href="https://apps.apple.com/app/id6780084420" aria-label="Download on the App Store">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M17.05 12.04c-.03-2.4 1.96-3.55 2.05-3.61-1.12-1.64-2.86-1.86-3.48-1.89-1.48-.15-2.89.87-3.64.87-.75 0-1.58-.85-2.6-.83-1.34.02-2.57.78-3.26 1.98-1.39 2.41-.36 5.98 1 7.94.66.96 1.45 2.04 2.49 2 1-.04 1.38-.65 2.59-.65s1.55.65 2.61.63c1.08-.02 1.76-.98 2.42-1.94.76-1.11 1.07-2.18 1.09-2.24-.02-.01-2.09-.8-2.11-3.18M14.63 5.16c.55-.67.93-1.6.82-2.53-.8.03-1.77.53-2.34 1.2-.51.59-.96 1.54-.84 2.45.89.07 1.81-.45 2.36-1.12"/></svg>
+        <div class="t"><small>Download on the</small><b>App Store</b></div>
+      </a>
+      <a class="btn btn-ghost" href="https://poo-bears.vercel.app">Create your kitchen →</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <a class="brand" href="/" style="font-size:18px"><img src="/img/icon.png" alt="" style="width:34px;height:34px;border-radius:9px"/>Supper Bear</a>
+    <div class="lk">
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://poo-bears.vercel.app">Open the app</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="/support">Support</a>
+    </div>
+  </div>
+  <div class="cp">© 2026 BRCG Digital Partners Inc. Supper Bear is a product of BRCG Digital Partners Inc. All rights reserved.</div>
+</div></footer>
+</body>
+</html>
