@@ -9,7 +9,6 @@
 <meta name="theme-color" content="#0e9e63"/>
 <link rel="icon" href="/img/icon.png"/>
 <link rel="apple-touch-icon" href="/img/icon.png"/>
-<!-- Open Graph / Twitter -->
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="Supper Bear"/>
 <meta property="og:title" content="Supper Bear — Family Meal Planner, Recipes & Grocery List"/>
@@ -20,29 +19,26 @@
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Supper Bear — Family Meal Planner"/>
-<meta name="twitter:description" content="Plan the week, share it with your household, and turn it into a one-tap grocery list. Free, on iPhone and any browser."/>
+<meta name="twitter:description" content="Plan the week, ask any recipe for a swap, and get a one-tap grocery list. Free, on iPhone and any browser."/>
 <meta name="twitter:image" content="https://supperbear.com/img/og.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@graph":[
-    {"@type":"Organization","@id":"https://supperbear.com/#org","name":"BRCG Digital Partners Inc.","url":"https://supperbear.com/","brand":"Supper Bear"},
-    {"@type":"WebSite","@id":"https://supperbear.com/#site","url":"https://supperbear.com/","name":"Supper Bear","publisher":{"@id":"https://supperbear.com/#org"}},
-    {"@type":"MobileApplication","name":"Supper Bear","operatingSystem":"iOS, Web","applicationCategory":"LifestyleApplication","applicationSubCategory":"Food & Drink","description":"A free family meal planner: plan the week, share it with your household, ask recipes for substitutions, and build a one-tap grocery list.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://supperbear.com/#org"},"url":"https://apps.apple.com/app/id6780084420"},
-    {"@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What is Supper Bear?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear is a free family meal-planning app. You plan the week, share it with everyone in your household, browse and save recipes, ask any recipe for substitutions, and turn your plan into a one-tap grocery list."}},
-      {"@type":"Question","name":"Is Supper Bear free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Supper Bear is free to use, with no ads and no third-party advertising trackers."}},
-      {"@type":"Question","name":"What devices does Supper Bear work on?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear runs on iPhone via the App Store and in any modern web browser on phones, tablets, and computers, so the whole household can use it whatever device they have."}},
-      {"@type":"Question","name":"How do family members share a kitchen?","acceptedAnswer":{"@type":"Answer","text":"Each household has a simple invite code. Anyone you share it with signs in, enters the code, and sees the same meal plan, recipes, and grocery list, synced in real time."}},
-      {"@type":"Question","name":"Can I ask a recipe a question?","acceptedAnswer":{"@type":"Answer","text":"Yes. Open any recipe and tap Ask about this recipe to get substitutions with amounts, scaling, spice tweaks, or how to cook it a different way."}}
-    ]}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Organization","@id":"https://supperbear.com/#org","name":"BRCG Digital Partners Inc.","url":"https://supperbear.com/","brand":"Supper Bear"},
+ {"@type":"WebSite","@id":"https://supperbear.com/#site","url":"https://supperbear.com/","name":"Supper Bear","publisher":{"@id":"https://supperbear.com/#org"}},
+ {"@type":"MobileApplication","name":"Supper Bear","operatingSystem":"iOS, Web","applicationCategory":"LifestyleApplication","applicationSubCategory":"Food & Drink","description":"A free family meal planner: plan the week, share it with your household, ask recipes for substitutions, and build a one-tap grocery list.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://supperbear.com/#org"},"url":"https://apps.apple.com/app/id6780084420"},
+ {"@type":"FAQPage","mainEntity":[
+   {"@type":"Question","name":"What is Supper Bear?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear is a free family meal-planning app. You plan the week, share it with everyone in your household, browse and save recipes, ask any recipe for substitutions, and turn your plan into a one-tap grocery list."}},
+   {"@type":"Question","name":"Is Supper Bear free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Supper Bear is free to use, with no ads and no third-party advertising trackers."}},
+   {"@type":"Question","name":"What devices does Supper Bear work on?","acceptedAnswer":{"@type":"Answer","text":"Supper Bear runs on iPhone via the App Store and in any modern web browser on phones, tablets, and computers, so the whole household can use it whatever device they have."}},
+   {"@type":"Question","name":"How do family members share a kitchen?","acceptedAnswer":{"@type":"Answer","text":"Each household has a simple invite code. Anyone you share it with signs in, enters the code, and sees the same meal plan, recipes, and grocery list, synced in real time."}},
+   {"@type":"Question","name":"Can I ask a recipe a question?","acceptedAnswer":{"@type":"Answer","text":"Yes. Open any recipe and tap Ask about this recipe to get substitutions with amounts, scaling, spice tweaks, or how to cook it a different way."}}
+ ]}
+]}
 </script>
 <style>
-  :root{--green:#0e9e63;--green-d:#0a6c45;--ink:#15171a;--ink2:#3a4047;--muted:#69707a;--bg:#f3faf5;--line:#e6ece8}
+  :root{--green:#0e9e63;--green-d:#0a6c45;--ink:#15171a;--ink2:#3a4047;--muted:#69707a;--bg:#f3faf5;--line:#e6ece8;--warm:#f0913a}
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;line-height:1.6;overflow-x:hidden}
@@ -51,78 +47,109 @@
   .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:13px 22px;border-radius:13px;cursor:pointer;border:none;font-family:inherit;transition:transform .14s,box-shadow .14s}
   .btn:active{transform:scale(.98)}
   .btn-primary{background:var(--green);color:#fff;box-shadow:0 8px 22px rgba(14,158,99,.28)}
+  .btn-primary:hover{box-shadow:0 12px 30px rgba(14,158,99,.36)}
   .btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
   .eyebrow{font-weight:700;font-size:13.5px;letter-spacing:.13em;color:var(--green);text-transform:uppercase}
-  /* nav */
-  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--line)}
+  .appbadge{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:13px;padding:10px 18px;transition:transform .14s}
+  .appbadge:hover{transform:translateY(-1px)}
+  .appbadge svg{width:26px;height:26px}
+  .appbadge .t{line-height:1.1}.appbadge .t small{display:block;font-size:10px;opacity:.9;font-weight:500}.appbadge .t b{font-size:19px;font-weight:700;letter-spacing:-.01em}
+  .rev{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1)}
+  .rev.in{opacity:1;transform:none}
+  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--line)}
   nav .inner{display:flex;align-items:center;justify-content:space-between;height:66px}
   .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:-.02em}
   .brand img{width:38px;height:38px;border-radius:10px}
   .navlinks{display:flex;align-items:center;gap:26px}
-  .navlinks a{font-weight:600;font-size:14.5px;color:var(--ink2)}
-  .navlinks a:hover{color:var(--ink)}
+  .navlinks a{font-weight:600;font-size:14.5px;color:var(--ink2)}.navlinks a:hover{color:var(--ink)}
   .navcta{display:flex;align-items:center;gap:12px}
-  /* hero */
-  .hero{background:radial-gradient(120% 90% at 80% -10%,#e7f7ee 0%,#f3faf5 45%,#fff 100%);overflow:hidden}
-  .hero .inner{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:78px 0 70px}
-  .hero h1{font-size:62px;line-height:1.03;letter-spacing:-.035em;font-weight:800;margin:18px 0 0}
+  .hero{background:radial-gradient(120% 90% at 82% -10%,#e7f7ee 0%,#f3faf5 45%,#fff 100%);overflow:hidden;position:relative}
+  .hero .inner{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:70px 0 64px}
+  .hpill{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 7px;font-size:13px;font-weight:700;color:var(--ink2);box-shadow:0 3px 10px rgba(10,40,26,.05)}
+  .hpill img{width:24px;height:24px;border-radius:7px}
+  .hero h1{font-size:62px;line-height:1.02;letter-spacing:-.035em;font-weight:800;margin:18px 0 0}
   .hero h1 .g{color:var(--green)}
-  .hero p.sub{font-size:19px;color:var(--ink2);margin:20px 0 30px;max-width:520px}
+  .hero p.sub{font-size:19px;color:var(--ink2);margin:20px 0 28px;max-width:520px}
   .ctarow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-  .appbadge{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:13px;padding:10px 18px}
-  .appbadge svg{width:26px;height:26px}
-  .appbadge .t{line-height:1.1}.appbadge .t small{display:block;font-size:10px;opacity:.9;font-weight:500}.appbadge .t b{font-size:19px;font-weight:700;letter-spacing:-.01em}
   .platline{margin-top:18px;font-size:13.5px;color:var(--muted);font-weight:600}
   .heroart{position:relative;display:flex;justify-content:center;gap:18px}
   .phone{background:#0b0d10;border-radius:42px;padding:8px;box-shadow:0 40px 80px rgba(10,40,26,.22),0 12px 30px rgba(10,40,26,.16);width:236px;flex:0 0 auto}
-  .phone.back{width:206px;margin-top:34px;opacity:.96}
+  .phone.back{width:206px;margin-top:34px}
   .phone .screen{border-radius:35px;overflow:hidden;position:relative;background:#f1f3ef}
   .phone .screen img{width:100%;display:block}
   .phone .island{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:74px;height:20px;background:#000;border-radius:11px;z-index:2}
-  /* logos / trust */
-  .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fafdfb}
-  .trust .inner{display:flex;flex-wrap:wrap;gap:14px 40px;justify-content:center;padding:22px 0;font-weight:700;color:var(--muted);font-size:14.5px}
-  .trust b{color:var(--ink)}
-  /* sections */
-  section.pad{padding:84px 0}
-  .sechead{text-align:center;max-width:680px;margin:0 auto 52px}
+  .marquee{padding:30px 0 8px;overflow:hidden;background:#fff}
+  .mq-cap{text-align:center;font-weight:700;color:var(--muted);font-size:14.5px;margin-bottom:20px;padding:0 20px}
+  .mq-cap b{color:var(--ink)}
+  .mq-track{display:flex;gap:16px;width:max-content;animation:mq 46s linear infinite}
+  .marquee:hover .mq-track{animation-play-state:paused}
+  .mq-track img{width:200px;height:200px;object-fit:cover;border-radius:20px;box-shadow:0 8px 20px rgba(10,40,26,.10);flex:0 0 auto}
+  @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .hook{padding:88px 0 30px;text-align:center}
+  .hook h2{font-size:44px;letter-spacing:-.03em;font-weight:800;line-height:1.1;max-width:760px;margin:14px auto 0}
+  .hook h2 .g{color:var(--green)}
+  .hook p{font-size:18px;color:var(--ink2);max-width:560px;margin:18px auto 0}
+  section.pad{padding:80px 0}
+  .sechead{text-align:center;max-width:680px;margin:0 auto 48px}
   .sechead h2{font-size:42px;letter-spacing:-.03em;font-weight:800;margin:12px 0 0;line-height:1.08}
   .sechead p{font-size:18px;color:var(--ink2);margin-top:14px}
-  /* feature rows */
-  .frow{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center;margin:0 auto;max-width:980px;padding:46px 0}
-  .frow:nth-child(even) .ftext{order:2}
-  .ftext h3{font-size:30px;letter-spacing:-.02em;font-weight:800;line-height:1.12;margin:10px 0 0}
-  .ftext p{font-size:17px;color:var(--ink2);margin-top:12px}
-  .fart{display:flex;justify-content:center}
-  .fart .phone{width:262px}
-  /* steps */
-  .steps{background:#0a5c3a;color:#fff;border-radius:28px;padding:54px 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+  .demo{background:linear-gradient(180deg,#0a5c3a,#073f28);color:#fff;border-radius:30px;overflow:hidden}
+  .demo .grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;padding:48px 46px}
+  .demo .eyebrow{color:#7ee5b4}
+  .demo h2{font-size:38px;letter-spacing:-.025em;font-weight:800;line-height:1.1;margin:10px 0 0}
+  .demo p{color:#bfe6d3;font-size:17px;margin-top:14px;max-width:420px}
+  .demo .hint{color:#7ee5b4;font-size:13.5px;font-weight:700;margin-top:20px}
+  .chatcard{background:#0e1512;border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:18px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+  .chatcard .rc{display:flex;gap:12px;align-items:center;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:14px}
+  .chatcard .rc img{width:48px;height:48px;border-radius:12px;object-fit:cover}
+  .chatcard .rc b{font-size:15px}.chatcard .rc span{font-size:12px;color:#8aa399;display:block}
+  .clog{min-height:210px;display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+  .cmsg{max-width:84%;padding:11px 14px;border-radius:16px;font-size:14.5px;line-height:1.5}
+  .cmsg.user{align-self:flex-end;background:var(--green);color:#fff;border-bottom-right-radius:5px}
+  .cmsg.bot{align-self:flex-start;background:#1b2620;color:#eafff5;border-bottom-left-radius:5px}
+  .cdots span{display:inline-block;width:6px;height:6px;border-radius:50%;background:#7ee5b4;margin-right:3px;animation:cd 1s infinite}
+  .cdots span:nth-child(2){animation-delay:.15s}.cdots span:nth-child(3){animation-delay:.3s}
+  @keyframes cd{0%,60%,100%{opacity:.3}30%{opacity:1}}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#eafff5;border-radius:999px;padding:9px 14px;font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;transition:background .14s}
+  .chip:hover{background:rgba(255,255,255,.16)}.chip:disabled{opacity:.4;cursor:default}
+  .bento{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-auto-rows:1fr;gap:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;display:flex;flex-direction:column;box-shadow:0 4px 16px rgba(10,40,26,.04);overflow:hidden}
+  .card h3{font-size:21px;letter-spacing:-.01em;font-weight:800;margin-top:4px}
+  .card p{font-size:15px;color:var(--ink2);margin-top:8px}
+  .card.big{grid-row:span 2;background:radial-gradient(120% 80% at 80% 0%,#eafaf1,#fff)}
+  .card.big .phone{width:208px;margin:22px auto 0}
+  .card .shot{margin-top:18px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 10px 24px rgba(10,40,26,.10)}
+  .card .shot img{width:100%;display:block}
+  .card .ic{font-size:26px}
+  .steps{background:#0a5c3a;color:#fff;border-radius:28px;padding:50px 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:34px;position:relative}
   .steps .st .n{width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px}
   .steps .st h4{font-size:20px;margin:16px 0 6px;font-weight:800}
   .steps .st p{color:#cdeadd;font-size:15px}
-  /* faq */
+  .steps .bear{position:absolute;right:34px;top:-34px;width:72px;height:72px;border-radius:18px;box-shadow:0 14px 30px rgba(0,0,0,.25);transform:rotate(6deg)}
   .faq{max-width:760px;margin:0 auto}
   .qa{border-bottom:1px solid var(--line);padding:22px 0}
   .qa h4{font-size:18.5px;font-weight:700;letter-spacing:-.01em}
   .qa p{color:var(--ink2);margin-top:8px;font-size:16px}
-  /* cta band */
-  .ctaband{background:radial-gradient(120% 120% at 50% 0%,#16b277 0%,#0a5c3a 100%);color:#fff;border-radius:30px;text-align:center;padding:64px 30px}
+  .ctaband{background:radial-gradient(120% 120% at 50% 0%,#16b277 0%,#0a5c3a 100%);color:#fff;border-radius:30px;text-align:center;padding:60px 30px;position:relative;overflow:hidden}
+  .ctaband img.bear{width:80px;height:80px;border-radius:20px;box-shadow:0 14px 34px rgba(0,0,0,.3);margin-bottom:18px}
   .ctaband h2{font-size:42px;letter-spacing:-.03em;font-weight:800;line-height:1.08}
-  .ctaband p{font-size:18px;opacity:.92;margin:14px auto 28px;max-width:520px}
+  .ctaband p{font-size:18px;opacity:.92;margin:14px auto 26px;max-width:520px}
   .ctaband .ctarow{justify-content:center}
   .ctaband .btn-ghost{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
-  /* footer */
   footer{border-top:1px solid var(--line);padding:46px 0 60px;color:var(--muted);font-size:14px}
   footer .cols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
   footer a{color:var(--ink2);font-weight:600}footer a:hover{color:var(--ink)}
   footer .lk{display:flex;gap:22px;flex-wrap:wrap}
   footer .cp{margin-top:26px;font-size:13px}
   @media(max-width:860px){
-    .hero .inner{grid-template-columns:1fr;padding:54px 0 50px}.hero h1{font-size:38px;letter-spacing:-.03em}.hero p.sub{font-size:17px}
-    .heroart{margin-top:18px}.navlinks{display:none}
-    .frow{grid-template-columns:1fr;gap:24px;padding:34px 0}.frow:nth-child(even) .ftext{order:0}
-    .sechead h2{font-size:33px}.ctaband h2{font-size:32px}
-    .steps{grid-template-columns:1fr;gap:26px;padding:40px 26px}
+    .hero .inner{grid-template-columns:1fr;padding:48px 0 44px}.hero h1{font-size:44px}
+    .navlinks{display:none}
+    .demo .grid{grid-template-columns:1fr;padding:34px 24px}.demo h2{font-size:30px}
+    .bento{grid-template-columns:1fr}.card.big{grid-row:auto}
+    .sechead h2,.hook h2,.ctaband h2{font-size:31px}
+    .steps{grid-template-columns:1fr;gap:26px;padding:40px 26px}.steps .bear{display:none}
+    .mq-track img{width:150px;height:150px}
   }
 </style>
 </head>
@@ -130,9 +157,7 @@
 <nav><div class="wrap inner">
   <a class="brand" href="/"><img src="/img/icon.png" alt="Supper Bear logo"/>Supper Bear</a>
   <div class="navlinks">
-    <a href="#features">Features</a>
-    <a href="#how">How it works</a>
-    <a href="#faq">FAQ</a>
+    <a href="#demo">Try it</a><a href="#features">Features</a><a href="#faq">FAQ</a>
     <a href="https://app.supperbear.com">Sign in</a>
   </div>
   <div class="navcta"><a class="btn btn-primary" href="https://apps.apple.com/app/id6780084420">Get the app</a></div>
@@ -140,7 +165,7 @@
 
 <header class="hero"><div class="wrap inner">
   <div>
-    <div class="eyebrow">Family meal planning, sorted</div>
+    <div class="hpill"><img src="/img/icon.png" alt=""/> For families who keep asking "what's for dinner?"</div>
     <h1>Dinner, <span class="g">decided.</span><br/>For the whole house.</h1>
     <p class="sub">Plan the week, share it with everyone at home, ask any recipe for a swap, and turn it all into a one-tap grocery list. Free — on your iPhone and any browser.</p>
     <div class="ctarow">
@@ -153,53 +178,68 @@
     <div class="platline">iPhone · iPad · any browser · free, no ads</div>
   </div>
   <div class="heroart">
-    <div class="phone back"><div class="screen"><div class="island"></div><img src="/img/s-recipes.png" alt="Supper Bear recipe collection"/></div></div>
-    <div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-week.png" alt="Supper Bear weekly meal plan"/></div></div>
+    <div class="phone back rev"><div class="screen"><div class="island"></div><img src="/img/s-recipes.webp" alt="Supper Bear recipe collection" loading="eager"/></div></div>
+    <div class="phone rev"><div class="screen"><div class="island"></div><img src="/img/s-week.webp" alt="Supper Bear weekly meal plan" loading="eager"/></div></div>
   </div>
 </div></header>
 
-<div class="trust"><div class="wrap inner">
-  <span><b>One plan,</b> every phone</span>
-  <span><b>AI</b> recipe help</span>
-  <span><b>One-tap</b> grocery list</span>
-  <span><b>Free</b> · no ads</span>
-</div></div>
+<div class="marquee">
+  <div class="mq-cap"><b>60+ dinners</b> your family will actually eat — seafood, bowls, Mexican, Asian, Italian, weeknight-fast</div>
+  <div class="mq-track" id="mqTrack"></div>
+</div>
 
-<section class="pad" id="features"><div class="wrap">
-  <div class="sechead"><div class="eyebrow">What you get</div><h2>Everything dinner needs, in one place</h2><p>No spreadsheets, no group texts, no nightly "what do you want?" standoff.</p></div>
+<section class="hook"><div class="wrap rev">
+  <div class="eyebrow">Sound familiar?</div>
+  <h2>It's 5:47pm. Nobody's decided. <span class="g">Again.</span></h2>
+  <p>Supper Bear ends the nightly "idk, what do <i>you</i> want?" standoff — one shared plan the whole house can see, and a grocery list that builds itself.</p>
+</div></section>
 
-  <div class="frow">
-    <div class="ftext"><div class="eyebrow">Weekly plan</div><h3>The whole week, at a glance</h3><p>Drop recipes onto any day and everyone in the house sees the plan instantly. No more "wait, are we doing tacos tonight?"</p></div>
-    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-week.png" alt="Weekly meal plan with the family's dinners"/></div></div></div>
-  </div>
+<section class="pad" id="demo" style="padding-top:20px"><div class="wrap rev">
+  <div class="demo"><div class="grid">
+    <div>
+      <div class="eyebrow">Try it right here</div>
+      <h2>Ask any recipe<br/>literally anything</h2>
+      <p>Out of an ingredient? Want it spicier? Cooking for a crowd? Supper Bear already knows the recipe — just ask. Tap a question to watch it work.</p>
+      <div class="hint">↓ a real example, no sign-up needed</div>
+    </div>
+    <div class="chatcard">
+      <div class="rc"><img src="/img/food/baked-feta-pasta.webp" alt=""/><div><b>Baked Feta Pasta</b><span>20 min · serves 4</span></div></div>
+      <div class="clog" id="clog">
+        <div class="cmsg bot">Ask me about this recipe — swaps, spice, scaling, you name it.</div>
+      </div>
+      <div class="chips" id="chips"></div>
+    </div>
+  </div></div>
+</div></section>
 
-  <div class="frow">
-    <div class="ftext"><div class="eyebrow">AI sous-chef</div><h3>Ask any recipe anything</h3><p>Out of feta? Want it spicier? Need to air-fry it instead? Tap "Ask about this recipe" and get a real answer with substitutions and amounts — it already knows the full recipe.</p></div>
-    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-chat.png" alt="Ask a recipe for ingredient substitutions"/></div></div></div>
-  </div>
-
-  <div class="frow">
-    <div class="ftext"><div class="eyebrow">Grocery list</div><h3>Your week becomes a shopping list</h3><p>Supper Bear rolls your plan into a clean, sorted grocery list in one tap — ready to take to the store or send to your cart.</p></div>
-    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-grocery.png" alt="One-tap grocery list from your meal plan"/></div></div></div>
-  </div>
-
-  <div class="frow">
-    <div class="ftext"><div class="eyebrow">Shared kitchen</div><h3>Set up your kitchen in seconds</h3><p>Pick a starter kitchen when you sign up, or just talk — Supper Bear listens and sorts your appliances, pots, pantry, and freezer, so recipes know what you can actually cook.</p></div>
-    <div class="fart"><div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-kitchen.png" alt="Your kitchen and pantry inventory"/></div></div></div>
+<section class="pad" id="features" style="padding-top:10px"><div class="wrap">
+  <div class="sechead rev"><div class="eyebrow">What you get</div><h2>Everything dinner needs, in one place</h2><p>No spreadsheets, no group texts, no nightly standoff.</p></div>
+  <div class="bento rev">
+    <div class="card big">
+      <div class="ic">🗓️</div>
+      <h3>The whole week, at a glance</h3>
+      <p>Drop recipes onto any day and everyone at home sees the plan instantly. No more "wait, are we doing tacos tonight?"</p>
+      <div class="phone"><div class="screen"><div class="island"></div><img src="/img/s-week.webp" alt="Weekly meal plan"/></div></div>
+    </div>
+    <div class="card"><div class="ic">🛒</div><h3>One-tap grocery list</h3><p>Your week rolls into a clean, sorted shopping list — ready for the store.</p><div class="shot"><img src="/img/s-grocery.webp" alt="Grocery list"/></div></div>
+    <div class="card"><div class="ic">👨‍👩‍👧</div><h3>Shared with the family</h3><p>One invite code. Everyone sees the same plan and list, synced in real time.</p></div>
+    <div class="card"><div class="ic">🥄</div><h3>A kitchen that knows you</h3><p>Pick a starter kitchen or just talk — recipes know what you can actually cook.</p><div class="shot"><img src="/img/s-kitchen.webp" alt="Kitchen inventory"/></div></div>
+    <div class="card"><div class="ic">🔒</div><h3>Sign in, simply</h3><p>Apple, Google, or a passwordless email code. Unlock with Face ID. No passwords.</p></div>
   </div>
 </div></section>
 
-<section class="pad" id="how" style="padding-top:20px"><div class="wrap">
+<section class="pad" style="padding-top:10px"><div class="wrap rev">
   <div class="steps">
+    <img class="bear" src="/img/icon.png" alt=""/>
     <div class="st"><div class="n">1</div><h4>Make your kitchen</h4><p>Sign in with Apple, Google, or email. Name your household and pick how stocked you are.</p></div>
-    <div class="st"><div class="n">2</div><h4>Invite the family</h4><p>Share one code. Everyone sees the same plan and list, synced across every phone.</p></div>
+    <div class="st"><div class="n">2</div><h4>Invite the family</h4><p>Share one code. Everyone sees the same plan and list, on every phone.</p></div>
     <div class="st"><div class="n">3</div><h4>Plan &amp; shop</h4><p>Drop in meals for the week, then turn it into a grocery list with one tap.</p></div>
   </div>
 </div></section>
 
-<section class="pad" id="faq" style="padding-top:20px"><div class="wrap">
-  <div class="sechead"><div class="eyebrow">Good to know</div><h2>Frequently asked questions</h2></div>
-  <div class="faq">
+<section class="pad" id="faq" style="padding-top:10px"><div class="wrap">
+  <div class="sechead rev"><div class="eyebrow">Good to know</div><h2>Frequently asked questions</h2></div>
+  <div class="faq rev">
     <div class="qa"><h4>Is Supper Bear free?</h4><p>Yes — Supper Bear is free to use, with no ads and no third-party advertising trackers.</p></div>
     <div class="qa"><h4>What devices does it work on?</h4><p>iPhone via the App Store, and any modern web browser on phones, tablets, and computers — so the whole household can use it on whatever device they have.</p></div>
     <div class="qa"><h4>How do family members share a kitchen?</h4><p>Each household has a simple invite code. Anyone you share it with signs in, enters the code, and sees the same meal plan, recipes, and grocery list, synced in real time.</p></div>
@@ -210,8 +250,9 @@
   </div>
 </div></section>
 
-<section class="pad" style="padding-top:10px"><div class="wrap">
+<section class="pad" style="padding-top:0"><div class="wrap rev">
   <div class="ctaband">
+    <img class="bear" src="/img/icon.png" alt="Supper Bear"/>
     <h2>Get the family fed.</h2>
     <p>Plan it once, eat well all week. Free on iPhone and any browser.</p>
     <div class="ctarow">
@@ -228,15 +269,44 @@
   <div class="cols">
     <a class="brand" href="/" style="font-size:18px"><img src="/img/icon.png" alt="" style="width:34px;height:34px;border-radius:9px"/>Supper Bear</a>
     <div class="lk">
-      <a href="#features">Features</a>
-      <a href="#faq">FAQ</a>
+      <a href="#features">Features</a><a href="#faq">FAQ</a>
       <a href="https://app.supperbear.com">Open the app</a>
-      <a href="/privacy">Privacy</a>
-      <a href="/terms">Terms</a>
-      <a href="/support">Support</a>
+      <a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/support">Support</a>
     </div>
   </div>
   <div class="cp">© 2026 BRCG Digital Partners Inc. Supper Bear is a product of BRCG Digital Partners Inc. All rights reserved.</div>
 </div></footer>
+
+<script>
+(function(){
+  const foods=["ahi-poke-bowl","beef-tacos","baked-feta-pasta","crispy-skin-salmon-bowl","birria-tacos","chili-garlic-noodles","chicken-fajitas","coconut-curry-chicken","carne-asada","garlic-butter-shrimp-bowl","chicken-parm","chinese-shrimp-fried-rice","bang-bang-shrimp-bowl","french-onion-chicken","cajun-chicken-pasta","blackened-cod-grain-bowl"];
+  const t=document.getElementById('mqTrack');
+  const row=foods.map(f=>`<img src="/img/food/${f}.webp" alt="" loading="lazy"/>`).join('');
+  t.innerHTML=row+row;
+})();
+(function(){
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.rev').forEach(el=>io.observe(el));
+})();
+(function(){
+  const QA=[
+    {q:"I'm out of feta — what else?",a:"Swap in 6 oz goat cheese or a ball of fresh mozzarella torn into chunks. Goat cheese keeps that tang; mozzarella goes milder and extra creamy. Same bake time, 400°F."},
+    {q:"Make it spicier?",a:"Add 1 tsp red pepper flakes with the tomatoes, then a drizzle of chili crisp at the end. Want real heat? Tuck a diced Calabrian chili into the oil before baking."},
+    {q:"Make it gluten-free?",a:"Easy — use your favorite GF pasta (chickpea or brown-rice both hold the sauce well). Everything else stays exactly the same."},
+    {q:"Double it for a crowd?",a:"Use two blocks of feta and 3 pints of tomatoes across a large sheet pan so things roast instead of steam. Cook 1 lb pasta and add about 5 minutes to the bake."}
+  ];
+  const log=document.getElementById('clog'), chips=document.getElementById('chips');
+  function bubble(cls,html){const d=document.createElement('div');d.className='cmsg '+cls;d.innerHTML=html;log.appendChild(d);log.scrollTop=log.scrollHeight;return d;}
+  function renderChips(){chips.innerHTML='';QA.forEach((x,i)=>{const b=document.createElement('button');b.className='chip';b.textContent=x.q;b.disabled=!!x._used;b.onclick=()=>ask(i,b);chips.appendChild(b);});}
+  function ask(i,btn){
+    if(QA[i]._used)return; QA[i]._used=true; btn.disabled=true;
+    bubble('user',QA[i].q);
+    const typing=bubble('bot','<span class="cdots"><span></span><span></span><span></span></span>');
+    setTimeout(()=>{ typing.remove(); const out=bubble('bot',''); typeOut(out,QA[i].a); },700);
+  }
+  function typeOut(el,text){let i=0;(function step(){el.textContent=text.slice(0,i);log.scrollTop=log.scrollHeight;if(i++<text.length)setTimeout(step,12);})();}
+  renderChips();
+})();
+</script>
 </body>
 </html>
