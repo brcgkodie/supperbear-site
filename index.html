@@ -225,18 +225,28 @@
     .steps{grid-template-columns:1fr;gap:26px;padding:42px 28px}.steps .bear{display:none}
   }
   @media(max-width:560px){
-    .wrap{padding:0 18px}
-    .heroart .iphone.lead{--pw:212px}
-    .heroart .iphone.trail{--pw:176px;margin-left:-66px;margin-bottom:42px}
-    .heroart .tag{padding:8px 11px;font-size:12px}
-    .heroart .tag.t1{top:12px;left:-4px}.heroart .tag.t2{bottom:74px;right:-6px}
-    .heroart{min-height:380px}
+    .wrap{padding:0 20px}
+    .hero .inner{padding:40px 0 34px}
+    .hero h1{font-size:clamp(34px,9vw,44px)}
+    /* one clean, centered phone on small screens */
+    .heroart{min-height:0;padding:18px 0 2px;justify-content:center;align-items:center}
+    .heroart .iphone.trail{display:none}
+    .heroart .iphone.lead{--pw:236px;transform:none}
+    .heroart .tag{padding:8px 11px;font-size:12px;box-shadow:0 10px 26px rgba(10,40,26,.16)}
+    .heroart .tag.t1{top:22px;left:0}
+    .heroart .tag.t2{bottom:42px;right:0}
+    .heroart .tag small{font-size:10px}
     .mq-track img{width:144px;height:144px}
-    .btn,.appbadge{width:100%}
-    .ctarow{width:100%}
-    section.pad{padding:60px 0}
+    /* full-width, centered, stacked CTAs */
+    .ctarow{flex-direction:column;align-items:stretch;width:100%;gap:11px;margin-top:4px}
+    .appbadge{width:100%;justify-content:center;padding:13px 19px}
+    .btn{width:100%;padding:15px 24px}
+    .platline{justify-content:center}
+    section.pad{padding:58px 0}
+    .hook{padding:62px 0 16px}
     .demo,.steps,.ctaband{border-radius:24px}
     .feat{padding:24px}
+    .ctaband{padding:50px 24px}
   }
 </style>
 </head>
